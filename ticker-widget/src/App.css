@@ -1,0 +1,50 @@
+.App {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.connectionStatus, .subscriptionStatus {
+  display: block;
+  text-align: left;
+}
+
+.connectionStatus > span:nth-child(1),
+.subscriptionStatus > span:nth-child(1) {
+  display: inline-block;
+  width: 20%;
+  text-transform: capitalize;
+  padding:  10px;
+}
+
+.connectionStatus > span:nth-child(2),
+.subscriptionStatus > span:nth-child(2) {
+  text-transform: uppercase;
+  padding:  10px;
+}
+
+.green {
+  color: #6da81f;
+}
+
+.tickerWidgetContainer{
+  /* position: fixed; */
+  display: flex;
+  margin-top: 100px;
+  justify-self: center;
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  box-shadow: 1px 1px 5px;
+  flex-wrap: wrap;
+}
+
+.tickerWidgetContainer > div {
+  padding: 5px;
+}
+
+.cryptoName {
+  width: 100%;
+  justify-self: flex-start;
+  display: flex;
+}

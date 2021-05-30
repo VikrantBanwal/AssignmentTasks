@@ -1,0 +1,3 @@
+{
+  "TICKER_SOCKET_ENDPOINT":"wss://api-pub.bitfinex.com/ws/2"
+}

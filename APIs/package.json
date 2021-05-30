@@ -1,0 +1,24 @@
+{
+  "name": "assignmenttask1",
+  "version": "1.0.0",
+  "description": "assignment 1",
+  "main": "startServer.js",
+  "scripts": {
+      "test": "test",
+      "start": "node startServer.js",
+      "assignment1":"node startServer.js",
+      "assignment2":"node startInteractiveServer.js",
+      "dev": "nodemon startServer.js"
+  },
+  "author": "Vikrant Banwal",
+  "license": "ISC",
+  "dependencies": {
+      "axios": "^0.21.1",
+      "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+      "eslint": "^7.27.0",
+      "eslint-config-airbnb-base": "^14.2.1",
+      "eslint-plugin-import": "^2.23.3"
+  }
+}

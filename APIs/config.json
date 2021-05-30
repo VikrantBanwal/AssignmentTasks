@@ -1,0 +1,5 @@
+{
+  "PORT": 3002,
+  "CRYPTO_URL_TRADING":"https://api-pub.bitfinex.com/v2/ticker",
+  "CRYPTO_URL_FUNDING": "curl https://api-pub.bitfinex.com/v2/ticker"
+}
